@@ -1,0 +1,19 @@
+List the five falsey values in JavaScript.
+Falsy - false, 0, "", null, undefined, NaN
+
+
+List five truthy values in JavaScript.
+All other values are truthy, including "0" (zero in quotes), "false" (false in quotes),
+ empty functions, empty arrays, and empty objects.
+
+
+
+Take a look at the code example below and state what the variable sameAge will be set to and explain why.
+
+var myAge = 33;
+var yourAge = "33";
+
+var sameAge = (myAge === yourAge) ? "Yes!" : "No!";
+
+Since === is a explicit comparison operator, the answer will be "No!" If the 
+!== were used, it would Yes!
